@@ -20,10 +20,10 @@ function SobreMim() {
             </div>
             <div className={style.logos}>
                 <a href="https://www.linkedin.com/in/eduardoneriscarneiro/" target="_blank" rel="noopener noreferrer">
-                    <img src="src/util/images/png-transparent-linkedin-social-networking-service-social-media-user-profile-social-media-text-logo-internet-removebg-preview.png" alt="Logo LinkedIn" className={style.logo1} />
+                    <img src="/portifolio/png-transparent-linkedin-social-networking-service-social-media-user-profile-social-media-text-logo-internet-removebg-preview.png" alt="Logo LinkedIn" className={style.logo1} />
                 </a>
                 <a href="https://github.com/Duzaoex" target="_blank" rel="noopener noreferrer">
-                    <img src="src/util/images/github_PNG23.png" alt="Logo GitHub" className={style.logo2} />
+                    <img src="/portifolio/github_PNG23.png" alt="Logo GitHub" className={style.logo2} />
                 </a>
             </div>
         </section>

@@ -1,0 +1,75 @@
+.contato {
+    background-color: #343A40;
+    color: #fff;
+    text-align: center;
+}
+
+.contato .fc {
+    font-size: 50px;
+    margin-top: 30px; /* Ajuste conforme necessário */
+    color: #FFFFFF;
+    margin-bottom: 100px;
+}
+
+.contactInfo {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contactInfo p {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.preHeader {
+    background-color: #343A40; /* Fundo preto */
+    height: 100px; /* Altura da parte preta */
+    width: 100%; /* Ocupa toda a largura da tela */
+}
+
+.socialIcon {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: #ff6600;
+    /* Cor laranja */
+    transition: color 0.3s;
+    margin-bottom: 100px;
+}
+
+.socialIcon:hover {
+    color: #cc5200;
+    /* Laranja mais escuro para hover */
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    fill: currentColor;
+    /* Usa a cor definida no CSS */
+}
+
+.whatsappButton {
+    display: inline-block;
+    background-color: #C23011;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+.whatsappButton:hover {
+    background-color: #a03e0e; /* Cor de fundo mais escura para o efeito de hover */
+}

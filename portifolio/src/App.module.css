@@ -1,0 +1,51 @@
+/* App.module.css */
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  /* Para que o footer fique no final */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  /* Garante que a sidebar fique sobre o conteúdo */
+}
+
+.content {
+  margin-left: 250px;
+  /* Deixa espaço para a sidebar */
+  background-color: #000;
+  color: #fff;
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 20px;
+  /* Adicionado para espaçamento interno */
+  margin: 0;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  /* Empurra o footer para o final do flex container */
+}

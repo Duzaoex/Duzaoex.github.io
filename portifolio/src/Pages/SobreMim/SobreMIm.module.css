@@ -1,0 +1,95 @@
+.sobreMim {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha os itens ao topo */
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #212529;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se necessário */
+}
+
+.textSection {
+    position: relative; /* Adicionado para que o pseudo-elemento ::after funcione corretamente */
+    margin-top: 150px;
+    margin-bottom: 120px; /* Menor margem inferior para garantir que o conteúdo fique mais compacto */
+    margin-left: 100px;
+    padding-right: 20px;
+}
+
+.infoSection {
+    flex-basis: 450px;
+    padding-left: 20px;
+    text-align: left;
+    border-left: 1px solid #FFFFFF;
+    margin-top: 390px; /* Menor margem superior para alinhamento */
+}
+.h1 {
+    margin-left: 420px;
+}
+
+.sobreMim h1 {
+    font-size: 4rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 150px; /* Ajuste para o espaço abaixo do título */
+    position: relative; /* Necessário para o pseudo-elemento ::after */
+    padding-bottom: 10px; /* Espaço extra para o sublinhado */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+.sobreMim h1::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Centraliza o sublinhado em relação ao texto */
+    bottom: -10px; /* Ajuste para posicionar o sublinhado mais abaixo do texto */
+    width: 15%; /* Ajuste a largura do sublinhado */
+    height: 2px; /* Altura do sublinhado */
+    background-color: #C23011; /* Cor do sublinhado */
+    transform: translateX(-50%); /* Centraliza o sublinhado horizontalmente */
+}
+
+
+.sobreMim h2 {
+    font-size: 1.8rem;
+    margin-bottom: 50px; /* Ajuste o espaço abaixo do subtítulo */
+}
+
+.sobreMim p {
+    font-size: 1.2rem;
+    line-height: 1.6; /* Ajuste o espaçamento entre linhas */
+    margin: 0 0 10px; /* Espaço abaixo dos parágrafos */
+}
+
+.whatsappButton {
+    display: inline-block;
+    background-color: #C23011;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.whatsappButton:hover {
+    background-color: #a03e0e; /* Cor de fundo mais escura para o efeito de hover */
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around; /* Centraliza as imagens horizontalmente */
+    margin-top: -50px; /* Espaço acima das imagens */
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.logo1{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.logo2 {
+    margin-top: 20px;
+    margin-right: 100px;
+    width: 400px;
+}

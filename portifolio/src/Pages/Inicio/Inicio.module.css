@@ -1,0 +1,75 @@
+/* Inicio.module.css */
+.inicio {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    background-image: url('/portifolio/tela-de-computador-com-codigo-de-linguagem-de-programacao-de-codigos_923558-1935.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.inicio::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.inicio h1,
+.inicio p {
+    position: relative;
+    z-index: 2;
+}
+
+.inicio h1 {
+    font-size: 2rem;
+    color: #C23011;
+    margin-bottom: 50px;
+}
+
+.inicio p {
+    font-size: 6rem;
+    margin: 0;
+    white-space: nowrap;
+    /* Impede que o texto quebre em múltiplas linhas */
+    overflow: hidden;
+    /* Esconde o texto que ultrapassa o contêiner */
+    border-right: .15em solid #C23011;
+    /* Adiciona um cursor de texto piscante */
+    animation: typing 4s steps(30, end), blink-caret .75s step-end infinite;
+    /* Define as animações de digitação e piscar do cursor */
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #C23011;
+    }
+}

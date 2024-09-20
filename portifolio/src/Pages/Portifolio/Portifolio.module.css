@@ -1,0 +1,68 @@
+.portfolio {
+    text-align: center;
+    color: #fff;
+    background-color: #212529;
+    padding: 2rem;
+}
+
+.h1 {
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.h1::after {
+    content: '';
+    position: absolute;
+    left: 75px;
+    bottom: -15px;
+    width: 40%;
+    height: 5px;
+    background-color: #C23011;
+    border-radius: 5px;
+}
+
+.projectList {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 250px;
+    margin-top: 50px;
+}
+
+.project {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 500px;                  /* Largura fixa para cada projeto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 0 1 300px;               /* Define a largura do item e permite quebrar linha se necessário */
+}
+
+.projectImage {
+    width: 100%;                   /* A imagem ocupa toda a largura do projeto */
+    border-radius: 10px;
+}
+
+.slider {
+    margin-bottom: 1rem;
+}
+
+.slick-dots li button:before {
+    color: #ff8c00;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #ff8c00;
+}

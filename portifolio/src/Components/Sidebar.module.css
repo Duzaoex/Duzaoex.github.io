@@ -1,0 +1,87 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px #C23011;
+    /* Sombra laranja */
+}
+
+.name {
+    margin: 10px 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.navItem {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    text-align: center;
+    background-color: #000;
+    /* Cor de fundo padrão dos itens do menu */
+}
+
+.navItem:hover {
+    background-color: #C23011;
+    /* Cor de fundo ao passar o mouse */
+    color: #000;
+}
+
+.whatsappButton {
+    background-color: #C23011;
+    /* Cor de fundo laranja */
+    color: #fff;
+    /* Cor do texto branca */
+    border: none;
+    border-radius: 20px;
+    margin-top: 50px;
+    /* Remove a borda padrão dos botões */
+}
+
+.whatsappButton:hover {
+    background-color: #C23011;
+    /* Cor de fundo laranja mais escuro ao passar o mouse */
+}
+
+.navItem2 {
+    color: #C23011;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+.navItem2:hover {
+    background-color: #C23011;
+    color: #000;
+}

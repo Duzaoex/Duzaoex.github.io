@@ -111,11 +111,10 @@
     .infoSection {
         width: 100%;
         margin-top: 5%;
-        padding-left: 0;
+        padding-left: 25%;
         margin-right: 0;
         text-align: center;
         border-left: none;
-        margin-left: 0%;
     }
 
     .sobreMim h1 {
@@ -138,9 +137,8 @@
 
     .whatsappButton {
         margin-top: 3%;
-        padding: 2% 5%;
         font-size: 100%;
-        
+        margin-left: -50%;        
     }
 
     .logos {

@@ -4,80 +4,78 @@
     align-items: center;
     background-color: #000;
     color: #fff;
-    height: 100vh;
-    padding: 20px;
+    height: 100vh; /* 100% da altura da viewport */
+    padding: 2%; /* Padding relativo ao tamanho da tela */
     box-sizing: border-box;
-    margin-top: 30px;
+    margin-top: 3%; /* Usar porcentagem para margem superior */
 }
 
 .profile {
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 10%; /* Margem inferior relativa ao tamanho da sidebar */
 }
 
 .profilePic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 40%; /* A largura agora será 20% da largura da sidebar */
+    height: auto; /* Altura ajusta-se automaticamente para manter a proporção */
     object-fit: cover;
     box-shadow: 0 4px 8px #C23011;
-    /* Sombra laranja */
+    margin-bottom: 10%;
 }
 
 .name {
-    margin: 10px 0;
+    margin: 2% 0; /* Margem superior e inferior em porcentagens */
+    margin-bottom: 10%;
 }
 
 .nav {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%; /* Largura total da sidebar */
     align-items: center;
 }
 
 .navItem {
     color: #fff;
     text-decoration: none;
-    margin: 10px 0;
-    padding: 10px;
+    margin: 2% 0; /* Margens em porcentagem */
+    padding: 2%; /* Padding em porcentagem */
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-    width: 100%;
+    width: 80%; /* A largura dos itens do menu será 80% da sidebar */
     text-align: center;
     background-color: #000;
-    /* Cor de fundo padrão dos itens do menu */
+    margin-bottom: 20%;
+    font-size: 1.2rem;
 }
 
 .navItem:hover {
     background-color: #C23011;
-    /* Cor de fundo ao passar o mouse */
     color: #000;
 }
 
 .whatsappButton {
     background-color: #C23011;
-    /* Cor de fundo laranja */
     color: #fff;
-    /* Cor do texto branca */
     border: none;
     border-radius: 20px;
-    margin-top: 50px;
-    /* Remove a borda padrão dos botões */
+    margin-top: 20%;
+    padding: 2%;
 }
 
 .whatsappButton:hover {
     background-color: #C23011;
-    /* Cor de fundo laranja mais escuro ao passar o mouse */
 }
 
 .navItem2 {
     color: #C23011;
     text-decoration: none;
-    margin: 10px 0;
-    padding: 10px;
+    margin: 2% 0;
+    padding: 2%;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-    width: 100%;
+    width: 80%;
     text-align: center;
 }
 
@@ -86,31 +84,32 @@
     color: #000;
 }
 
+/* Responsividade para telas menores */
 @media (max-width: 768px) {
     .sidebar {
-      flex-direction: row; /* Sidebar com itens dispostos horizontalmente em telas pequenas */
-      justify-content: space-between; /* Distribuir os itens ao longo da largura */
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2% 4%;
     }
-  
+
     .profile {
-      margin-bottom: 20px; /* Reduzir o espaçamento */
+        margin-bottom: 5%;
     }
-  
+
     .profilePic {
-      width: 100px; /* Reduzir o tamanho da foto de perfil em dispositivos móveis */
-      height: 100px;
+        width: 25%; /* Menor em telas pequenas */
+        height: auto;
     }
-  
+
     .nav {
-      flex-direction: row; /* Navegação horizontal */
-      width: 100%; /* Ocupa a largura total */
-      justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
     }
-  
+
     .navItem, .navItem2, .whatsappButton {
-      margin: 5px; /* Reduzir margens para ocupar menos espaço */
-      padding: 10px 5px; /* Ajustar espaçamento interno */
-      font-size: 0.7rem; /* Diminuir o tamanho da fonte */
+        margin: 1%;
+        padding: 2% 1%;
+        font-size: 0.7rem;
     }
-  }
-  
+}

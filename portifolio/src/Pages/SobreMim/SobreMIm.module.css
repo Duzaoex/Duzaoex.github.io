@@ -1,63 +1,68 @@
 .sobreMim {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Alinha os itens ao topo */
-    padding: 20px;
+    align-items: flex-start;
     color: #FFFFFF;
     background-color: #212529;
-    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se necessário */
+    flex-wrap: wrap;
 }
 
 .textSection {
     position: relative; /* Adicionado para que o pseudo-elemento ::after funcione corretamente */
-    margin-top: 150px;
-    margin-bottom: 120px; /* Menor margem inferior para garantir que o conteúdo fique mais compacto */
-    margin-left: 100px;
-    padding-right: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    padding-right: 2%;
+    width: 45%; /* Usar porcentagens para largura */
 }
 
 .infoSection {
-    flex-basis: 450px;
-    padding-left: 20px;
+    margin-right: 10%;
+    padding-left: 2%;
     text-align: left;
     border-left: 1px solid #FFFFFF;
-    margin-top: 390px; /* Menor margem superior para alinhamento */
+    margin-top: 26%;
 }
 .h1 {
-    margin-left: 420px;
+    margin-left: 15%;
+}
+
+.pp{
+    margin-left: 25%;
+    width: 100%;
 }
 
 .sobreMim h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 150px; /* Ajuste para o espaço abaixo do título */
+    margin-left: 80%;
+    margin-bottom: 20%; /* Ajuste para o espaço abaixo do título */
     position: relative; /* Necessário para o pseudo-elemento ::after */
-    padding-bottom: 10px; /* Espaço extra para o sublinhado */
-    text-decoration: none; /* Remove o sublinhado padrão */
+    padding-bottom: 2%; /* Espaço extra para o sublinhado */
+    width: 50%;
 }
 
 .sobreMim h1::after {
     content: '';
     position: absolute;
     left: 50%; /* Centraliza o sublinhado em relação ao texto */
-    bottom: -10px; /* Ajuste para posicionar o sublinhado mais abaixo do texto */
+    bottom: -5%; /* Ajuste para posicionar o sublinhado mais abaixo do texto */
     width: 15%; /* Ajuste a largura do sublinhado */
     height: 2px; /* Altura do sublinhado */
     background-color: #C23011; /* Cor do sublinhado */
     transform: translateX(-50%); /* Centraliza o sublinhado horizontalmente */
 }
 
-
 .sobreMim h2 {
-    font-size: 1.8rem;
-    margin-bottom: 50px; /* Ajuste o espaço abaixo do subtítulo */
+    font-size: 180%; /* Usar porcentagem para o subtítulo */
+    margin-bottom: 5%; /* Ajuste o espaço abaixo do subtítulo */
 }
 
 .sobreMim p {
-    font-size: 1.2rem;
+    font-size: 120%;
     line-height: 1.6; /* Ajuste o espaçamento entre linhas */
-    margin: 0 0 10px; /* Espaço abaixo dos parágrafos */
+    margin: 0 0 3%; /* Espaço abaixo dos parágrafos */
 }
 
 .whatsappButton {
@@ -66,9 +71,9 @@
     color: #FFFFFF;
     border: none;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 2% 4%;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 .whatsappButton:hover {
@@ -76,86 +81,141 @@
 }
 
 .logos {
+    margin-left: 30%;
     display: flex;
     justify-content: space-around; /* Centraliza as imagens horizontalmente */
-    margin-top: -50px; /* Espaço acima das imagens */
+    margin-top: -5%;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 5%;
 }
 
-.logo1{
-    width: 400px;
-    margin-left: 100px;
+.logo1, .logo2 {
+    width: 50%; /* Ajusta o tamanho dos logos para porcentagem */
 }
 
-.logo2 {
-    margin-top: 20px;
-    margin-right: 100px;
-    width: 400px;
-}
-
-@media (max-width: 768px) {
+/* Para telas com largura de 1280px ou mais */
+@media (max-width: 1280px) {
     .sobreMim {
-        flex-direction: column; /* Alinha os itens em coluna no mobile */
-        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5%;
     }
 
     .textSection {
+        width: 100%;
         margin-left: 0;
-        padding: 0;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center; /* Centraliza o texto no mobile */
+        margin-bottom: 5%;
+        padding-right: 0;
     }
 
     .infoSection {
-        flex-basis: 100%;
-        padding: 0;
-        border-left: none; /* Remove a borda no mobile */
-        margin-top: 20px;
-        margin-left: 7%;
-        width: 90%;
-        text-align: center; /* Centraliza o texto no mobile */
-    }
-
-    .h1 {
-        margin-left: 0;
-        font-size: 3rem; /* Reduz o tamanho da fonte no mobile */
+        width: 100%;
+        margin-top: 5%;
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
+        border-left: none;
+        margin-left: 0%;
     }
 
     .sobreMim h1 {
-        margin-bottom: 50px; /* Diminui a margem no mobile */
+        font-size: 2.5rem;
+        width: 80%;
+        margin: 0 auto 5%;
+        margin-bottom: 10%;
     }
 
     .sobreMim h2 {
-        font-size: 1.5rem;
+        font-size: 150%;
+        margin-left: -20%;
     }
 
     .sobreMim p {
-        text-align: center;
-        font-size: 1rem;
-        line-height: 1.4;
-        text-align: justify;
-        width: 80%;
-        margin-left: 10%;
+        font-size: 110%;
+        width: 90%;
+        margin-left: -20%;
     }
 
     .whatsappButton {
-        margin-top: 20px;
+        margin-top: 3%;
+        padding: 2% 5%;
+        font-size: 100%;
+        
     }
 
     .logos {
-        flex-direction: column; /* Empilha os logos no mobile */
-        align-items: center;
-        margin-top: 10%;
+        margin: 0;
+        margin-top: 3%;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 18%;
     }
 
     .logo1, .logo2 {
-        width: 150px; /* Reduz o tamanho dos logos no mobile */
-        margin: 10px 0;
+        width: 50%;
+    }
+}
+
+/* Para telas com largura de 768px ou menos */
+@media (max-width: 768px) {
+    .sobreMim {
+        flex-direction: column;
+    }
+
+    .textSection {
+        width: 100%;
+        margin-left: -80px;
+        padding-right: 0;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .infoSection {
+        width: 100%;
+        margin-top: 5%;
+        padding-left: 0;
+        border-left: none;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+    
+    .sobreMim h1 {
+        margin-left: 22%;
+        margin-bottom: 15%;
+        width: 100%;
+    }
+
+    .sobreMim h2 {
+        font-size: 130%;
+        margin-bottom: 13%;
+        margin-left: -7%;
+    }
+
+    .sobreMim p {
+        font-size: 100%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .whatsappButton {
         margin-top: 10%;
+        padding: 2% 4%;
+        font-size: 90%;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+
+    .logo1, .logo2 {
+        width: 40%;
+        margin: 3% 0;
     }
 }

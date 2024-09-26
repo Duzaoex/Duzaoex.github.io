@@ -16,7 +16,7 @@ function SobreMim() {
                 <p>Email: eduardoneriscarneiro@gmail.com</p>
                 <p>Idade: 33 Anos</p>
                 <p>Cidade: Presidente Prudente - SP</p>
-                <a href="https://w.app/EduardoCarneiroDevWeb" className={style.whatsappButton}>Contato por WhatsApp</a>
+                <a href="https://wa.me/18998041456" className={style.whatsappButton}>Contato por WhatsApp</a>
             </div>
             <div className={style.logos}>
                 <a href="https://www.linkedin.com/in/eduardoneriscarneiro/" target="_blank" rel="noopener noreferrer">

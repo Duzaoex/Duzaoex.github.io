@@ -18,7 +18,7 @@ const Sidebar: React.FC<SidebarProps> = ({ className }) => {
                 <a href="#o-que-faco" className={style.navItem}>O que faço</a>
                 <a href="#portifolio" className={style.navItem}>Portfólio</a>
                 <a href="#contato" className={style.navItem2}>Contato</a>
-                <a href="https://w.app/EduardoCarneiroDevWeb" className={`${style.navItem} ${style.whatsappButton}`}>Contato por WhatsApp</a>
+                <a href="https://wa.me/18998041456" className={`${style.navItem} ${style.whatsappButton}`}>Contato por WhatsApp</a>
             </nav>
         </div>
     );

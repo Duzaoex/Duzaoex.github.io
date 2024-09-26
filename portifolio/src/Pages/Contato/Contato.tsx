@@ -23,7 +23,7 @@ const Contato: React.FC = () => {
                         </a>
                     </div>
                 </div>
-                <a href="https://w.app/EduardoCarneiroDevWeb" className={style.whatsappButton}>Contato por WhatsApp</a>
+                <a href="https://wa.me/18998041456" className={style.whatsappButton}>Contato por WhatsApp</a>
             </div>
         </section>
     );

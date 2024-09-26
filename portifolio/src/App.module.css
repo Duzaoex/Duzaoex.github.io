@@ -49,3 +49,30 @@ section {
   margin-top: auto;
   /* Empurra o footer para o final do flex container */
 }
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+  .appContainer {
+    overflow: auto; /* Permite rolagem no mobile */
+    height: auto; /* Permite que o conteúdo do mobile tenha altura dinâmica */
+  }
+
+  .sidebar {
+    width: 100%; /* Sidebar ocupa 100% da largura no mobile */
+    position: relative; /* Para que não fique fixa no mobile */
+    height: auto; /* Altura dinâmica no mobile */
+  }
+
+  .content {
+    margin-left: 0; /* Remove a margem da sidebar no mobile */
+    padding-top: 20px; /* Adiciona espaçamento no topo */
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+}

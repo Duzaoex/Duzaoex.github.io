@@ -5,7 +5,7 @@ function SobreMim() {
         <section className={style.sobreMim}>
             <div className={style.textSection}>
                 <h1 className={style.h1}>Sobre Mim</h1>
-                <h2>Sou Eduardo Carneiro, um desenvolvedor web</h2>
+                <h2>Sou Eduardo Carneiro, um desenvolvedor web - Full Stack</h2>
                 <p>Apaixonado por tecnologia e programação.</p>
                 <p>Tenho experiência em diversas tecnologias de frontend e backend,</p>
                 <p>Sempre buscando aprender mais e me desafiar com novos projetos.</p>

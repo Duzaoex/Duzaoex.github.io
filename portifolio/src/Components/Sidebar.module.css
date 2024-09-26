@@ -85,3 +85,32 @@
     background-color: #C23011;
     color: #000;
 }
+
+@media (max-width: 768px) {
+    .sidebar {
+      flex-direction: row; /* Sidebar com itens dispostos horizontalmente em telas pequenas */
+      justify-content: space-between; /* Distribuir os itens ao longo da largura */
+    }
+  
+    .profile {
+      margin-bottom: 20px; /* Reduzir o espaçamento */
+    }
+  
+    .profilePic {
+      width: 100px; /* Reduzir o tamanho da foto de perfil em dispositivos móveis */
+      height: 100px;
+    }
+  
+    .nav {
+      flex-direction: row; /* Navegação horizontal */
+      width: 100%; /* Ocupa a largura total */
+      justify-content: space-around;
+    }
+  
+    .navItem, .navItem2, .whatsappButton {
+      margin: 5px; /* Reduzir margens para ocupar menos espaço */
+      padding: 10px 5px; /* Ajustar espaçamento interno */
+      font-size: 0.7rem; /* Diminuir o tamanho da fonte */
+    }
+  }
+  

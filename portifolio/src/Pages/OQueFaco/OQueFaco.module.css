@@ -75,3 +75,18 @@
 .container{
     margin-bottom: 100px;
 }
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .oQueFaco h1 {
+        font-size: 2.5rem;
+    }
+
+    .oQueFaco p {
+        font-size: 1rem;
+    }
+}

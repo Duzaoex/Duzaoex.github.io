@@ -66,3 +66,21 @@
 .slick-prev:before, .slick-next:before {
     color: #ff8c00;
 }
+
+@media (max-width: 768px) {
+
+    .projectList {
+        margin-bottom: 80px; /* Reduzir o espaçamento inferior */
+        margin-top: 20px;
+    }
+
+    .project {
+        width: 80vw; /* Projetos ocupam quase toda a largura da tela */
+        max-width: 350px;
+        margin-left: -4%;
+    }
+
+    .projectImage {
+        height: auto; /* Assegurar que as imagens sejam proporcionais */
+    }
+}

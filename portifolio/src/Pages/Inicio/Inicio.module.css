@@ -73,3 +73,22 @@
         border-color: #C23011;
     }
 }
+
+@media (max-width: 768px) {
+    .inicio {
+        height: 55vh; /* Deixe a altura automática, assim não fica 100vh */
+        padding: 40px 20px; /* Adiciona algum padding para manter o espaçamento */
+        background-attachment: scroll; /* Remove o efeito 'fixed' em telas pequenas */
+    }
+
+    .inicio h1 {
+        font-size: 1.8rem; /* Reduzir o tamanho do título */
+        margin-bottom: 10px; /* Menos espaço entre o título e o subtítulo */
+        margin-top: 20px; /* Se necessário, ajuste o espaçamento superior */
+    }
+
+    .inicio p {
+        font-size: 2rem; /* Reduzir o tamanho do subtítulo */
+        margin-bottom: 20px; /* Diminui o espaçamento inferior */
+    }
+}

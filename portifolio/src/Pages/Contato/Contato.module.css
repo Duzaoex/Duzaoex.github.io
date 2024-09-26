@@ -73,3 +73,39 @@
 .whatsappButton:hover {
     background-color: #a03e0e; /* Cor de fundo mais escura para o efeito de hover */
 }
+
+@media (max-width: 768px) {
+    .contato .fc {
+        font-size: 30px; /* Reduz tamanho da fonte */
+        margin-bottom: 50px; /* Diminui margem inferior */
+    }
+
+    .contactInfo {
+        font-size: 20px; /* Reduz tamanho da fonte */
+        margin-bottom: 30px;
+    }
+
+    .contactInfo p {
+        font-size: 20px; /* Reduz tamanho da fonte dos parágrafos */
+        margin-bottom: 20px;
+    }
+
+    .socialIcon {
+        width: 40px;
+        height: 40px;
+        margin-right: 20px; /* Reduz espaço entre ícones */
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+
+    .whatsappButton {
+        padding: 8px 16px; /* Diminui o padding do botão */
+        margin-top: 20px;
+        margin-bottom: 100px;
+        font-size: 16px; /* Ajusta o tamanho da fonte */
+    }
+    
+    .preHeader {
+        height: 50px; /* Reduz a altura da parte preta no topo */
+    }
+}

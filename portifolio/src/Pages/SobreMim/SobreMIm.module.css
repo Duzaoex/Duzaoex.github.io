@@ -93,3 +93,69 @@
     margin-right: 100px;
     width: 400px;
 }
+
+@media (max-width: 768px) {
+    .sobreMim {
+        flex-direction: column; /* Alinha os itens em coluna no mobile */
+        padding: 10px;
+    }
+
+    .textSection {
+        margin-left: 0;
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center; /* Centraliza o texto no mobile */
+    }
+
+    .infoSection {
+        flex-basis: 100%;
+        padding: 0;
+        border-left: none; /* Remove a borda no mobile */
+        margin-top: 20px;
+        margin-left: 7%;
+        width: 90%;
+        text-align: center; /* Centraliza o texto no mobile */
+    }
+
+    .h1 {
+        margin-left: 0;
+        font-size: 3rem; /* Reduz o tamanho da fonte no mobile */
+    }
+
+    .sobreMim h1 {
+        margin-bottom: 50px; /* Diminui a margem no mobile */
+    }
+
+    .sobreMim h2 {
+        font-size: 1.5rem;
+    }
+
+    .sobreMim p {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.4;
+        text-align: justify;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .whatsappButton {
+        margin-top: 20px;
+    }
+
+    .logos {
+        flex-direction: column; /* Empilha os logos no mobile */
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .logo1, .logo2 {
+        width: 150px; /* Reduz o tamanho dos logos no mobile */
+        margin: 10px 0;
+    }
+
+    .whatsappButton {
+        margin-top: 10%;
+    }
+}

@@ -46,3 +46,10 @@ h5,
 h6 {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow: auto; /* Permite rolagem no mobile */
+  }
+}

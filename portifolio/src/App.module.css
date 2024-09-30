@@ -8,13 +8,13 @@
 }
 
 .sidebar {
-  width: 250px;
+  width: 12vw;
   background-color: #000;
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 1%;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -25,7 +25,7 @@
 }
 
 .content {
-  margin-left: 250px;
+  margin-left: 13%;
   /* Deixa espaço para a sidebar */
   background-color: #000;
   color: #fff;
@@ -36,7 +36,6 @@
 }
 
 section {
-  /* Adicionado para espaçamento interno */
   margin: 0;
 }
 
@@ -44,7 +43,7 @@ section {
   background-color: #000;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 2%;
   margin-top: auto;
   /* Empurra o footer para o final do flex container */
 }

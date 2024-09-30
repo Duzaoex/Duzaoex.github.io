@@ -47,12 +47,13 @@ const Portifolio: React.FC = () => {
                             <img src="/portifolio/bodao/Captura de tela de 2024-09-19 13-15-11.png" alt="Projeto 1 - Imagem 7" className={style.projectImage} />
                         </div>
                     </Slider>
-                    <p>Projeto para consultoria online de treinamento, para um Personal Trainer</p>
+                    <p className={style.p}>Projeto para consultoria online</p>
+                    <a href="https://acastanhotreinador.com.br/" target="_blank" rel="noopener noreferrer" className={style.link}>Visite o site</a>
                 </div>
 
                 {/* Carrossel do Projeto 2 */}
                 <div className={style.project}>
-                    <h2>Site - Psicologa</h2>
+                    <h2 className={style.h2}>Site - Psicologa</h2>
                     <Slider {...settings} className={style.slider}>
                         <div>
                             <img src="/portifolio/leticia/Captura de tela de 2024-09-19 12-52-17.png" alt="Projeto 2 - Imagem 1" className={style.projectImage} />
@@ -67,7 +68,8 @@ const Portifolio: React.FC = () => {
                             <img src="/portifolio/leticia/Captura de tela de 2024-09-19 12-52-49.png" alt="Projeto 2 - Imagem 4" className={style.projectImage} />
                         </div>
                     </Slider>
-                    <p>Projeto para Psicologa.</p>
+                    <p className={style.p}>Projeto para Psicologa.</p>
+                    <a href="https://psicologaleticianeris.com/" target="_blank" rel="noopener noreferrer" className={style.link}>Visite o site</a>
                 </div>
             </div>
         </section>

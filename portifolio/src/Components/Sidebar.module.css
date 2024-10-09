@@ -89,7 +89,6 @@
     .sidebar {
         flex-direction: row;
         justify-content: space-between;
-        padding: 2% 4%;
     }
 
     .profile {
@@ -105,11 +104,11 @@
         flex-direction: row;
         width: 100%;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .navItem, .navItem2, .whatsappButton {
         margin: 1%;
-        padding: 2% 1%;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
